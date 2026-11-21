@@ -44,6 +44,6 @@ create table if not exists resources (
   created_at timestamptz not null default now()
 );
 
--- This table starts EMPTY on purpose. After running this script, run
--- "npm run set-initial-keys" (see README) once to create the first site key
--- and admin key. Never type real keys directly into SQL as plain text.
+-- This table starts EMPTY on purpose. After running this script, visit
+-- your-site.vercel.app/setup once in your browser to set the first site
+-- key and admin key. Never type real keys directly into SQL as plain text.
