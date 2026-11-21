@@ -102,3 +102,4 @@ Supabase or Vercel again for normal operation:
 - No plaintext key is ever stored in the database — only salted hashes.
   The plain key is shown to you once, right after you create or rotate it,
   and never again.
+
